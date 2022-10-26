@@ -421,4 +421,44 @@
   text-align: left;
   text-align: end;
 }
+
+.footer__message {
+  width: 550px;
+  color: #E5E5E5;
+  font-size: 22px;
+  font-family: 'EB Garamond', serif;
+  text-align: left;
+}
+
+.footer__input {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__input-in {
+  padding-left: 20px;
+  color: #E5E5E5;
+  font-size: 20px;
+  width: 300px;
+  height: 45px;
+  background: linear-gradient(92.24deg, #3B0C6A 35.5%, #380E63 87.39%);
+  border-radius: 60px 0px 0px 60px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+.footer__input-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 47px;
+  border-radius: 0px 60px 60px 0px;
+  background: #FFF171;
+  border: none;
+}
 /*# sourceMappingURL=style.css.map */
