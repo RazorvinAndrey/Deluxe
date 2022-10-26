@@ -116,7 +116,7 @@
 }
 
 .header__logo-standart {
-  margin-left: 135px;
+  margin-left: 13.5em;
   width: 42px;
   height: 42px;
 }
@@ -143,9 +143,15 @@
 }
 
 .header__brand-one {
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 500;
+  font-family: 'Black Ops One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: -0.315em;
 }
 
 .header__brand-two {
