@@ -55,10 +55,9 @@ $greygrey: #565656;
 	justify-content: flex-start;
 	align-items: center;
 	&__menu{
-		position: relative;
 		vertical-align: middle;
-		margin-left: 15em;
-		width: 650px;
+		margin-left: 8%;
+		width: 20em;
 		display: flex;
   	flex-direction: row;
   	justify-content: space-between;
@@ -67,6 +66,13 @@ $greygrey: #565656;
 			color: $pastel;
 			font-size: 18px;
 			font-weight: 400;
+			text-decoration: none;
+		}
+		&-open{
+			width: 110px;
+			color: $pastel;
+			font-size: 20px;
+			font-weight: 700;
 			text-decoration: none;
 		}
 	}
