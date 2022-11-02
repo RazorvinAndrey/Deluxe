@@ -77,11 +77,17 @@ $greygrey: #565656;
 		}
 	}
 	&__logo{
-		&-standart{
-			margin-left: 135px;
-			width: 80px;
-			height: 42px;
-		}
+		margin-left: 8em;
+		font-family: 'Black Ops One';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 45px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: -0.315em;
+		color: $white;
 	}
 }
 
